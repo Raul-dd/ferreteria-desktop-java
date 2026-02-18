@@ -6,10 +6,10 @@ import java.sql.SQLException;
 
 public class ConnectionMySQL {
     
-    private String database_name = "pharmacy_database";
+    private String database_name = "ferreteria_db"; // antes pharmacy_database
     private String user = "root";
-    private String password = "root";
-    private String url = "jdbc:mysql://localhost:3307/" + database_name;
+    private String password = "TU_PASSWORD";
+    private String url = "jdbc:mysql://localhost:3306/" + database_name + "?useSSL=false&serverTimezone=UTC";
     Connection conn = null;
     
     public Connection getConnection(){
