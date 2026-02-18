@@ -6,9 +6,9 @@ import java.sql.SQLException;
 
 public class ConnectionMySQL {
     
-    private String database_name = "ferreteria_db"; // antes pharmacy_database
+    private String database_name = "ferreteria_db"; // nombre de la base de datos
     private String user = "root";
-    private String password = "TU_PASSWORD";
+    private String password = "TU_PASSWORD"; //password configurable
     private String url = "jdbc:mysql://localhost:3306/" + database_name + "?useSSL=false&serverTimezone=UTC";
     Connection conn = null;
     
