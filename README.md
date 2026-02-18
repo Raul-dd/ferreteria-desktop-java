@@ -1,19 +1,149 @@
-﻿# 🛠 Ferretería El Chalan
+# 🛠 Ferretería El Chalán
 
-Desktop application built with Java Swing (NetBeans) for hardware store management.
+Desktop management system built with **Java Swing (NetBeans)** for hardware store administration.
 
-## ✨ Features
+---
+
+## 📌 Overview
+
+**Ferretería El Chalán** is a complete desktop application that allows you to manage a hardware store workflow:
+
 - Products & inventory
-- Sales & purchases
-- Customers, suppliers, employees
-- Categories and reports
+- Purchases & sales
+- Customers & suppliers
+- Employees & roles
+- Categories
+- Reports
+- Invoice generation (printable)
+- User authentication and profile management
 
-## 🧰 Tech Stack
+Built with a classic desktop structure using **Controllers**, **Models/DAO**, **Views**, and **JDBC**.
+
+---
+
+## 🖥 Screenshots
+
+### 🔐 Login
+![Login](screenshots/login.png)
+
+### 🏠 Main Dashboard
+![Dashboard](screenshots/dashboard.png)
+
+---
+
+## 📦 Product Management
+![Products](screenshots/products.png)
+
+**Includes:**
+- Register / Modify / Delete products
+- Search functionality
+- Category assignment
+- Inventory/stock control
+
+---
+
+## 🛒 Purchases Module
+![Purchases](screenshots/purchases.png)
+
+**Includes:**
+- Add products to purchase
+- Provider selection
+- Automatic subtotal calculations
+- Purchase records
+
+---
+
+## 💰 Sales Module
+![Sales](screenshots/sales.png)
+
+**Includes:**
+- Add products to a sale
+- Stock validation
+- Customer selection
+- Sales records
+
+---
+
+## 👥 Customers
+![Customers](screenshots/customers.png)
+
+**Includes:**
+- Register / Modify / Delete customers
+- Search and listing
+
+---
+
+## 👨‍💼 Employees & Roles
+![Employees](screenshots/employees.png)
+
+**Includes:**
+- User management (Admin / Auxiliar)
+- Login credentials
+- Role-based access (depending on implementation)
+
+---
+
+## 🚚 Suppliers
+![Suppliers](screenshots/suppliers.png)
+
+**Includes:**
+- Register / Modify / Delete suppliers
+- Contact and info management
+
+---
+
+## 🗂 Categories
+![Categories](screenshots/categories.png)
+
+---
+
+## 📊 Reports
+![Reports](screenshots/reports.png)
+
+Shows sales and purchases history with totals and dates.
+
+---
+
+## 👤 Profile
+![Profile](screenshots/profile.png)
+
+Allows updating user information and password changes.
+
+---
+
+## 🧾 Invoices
+
+### Sales Invoice
+![Sales Invoice](screenshots/sales_invoice.png)
+
+### Purchase Invoice
+![Purchase Invoice](screenshots/purchase_invoice.png)
+
+---
+
+## ✅ Confirmation Messages
+
+The system displays confirmation and feedback dialogs for actions such as:
+- Creating / editing / deleting records
+- Completing a sale or purchase
+- Generating invoices
+- Updating profile information
+
+---
+
+## ⚙ Tech Stack
+
 - Java
-- Swing (NetBeans)
-- JDBC / MySQL (if configured)
+- Java Swing (NetBeans)
+- JDBC
+- MySQL (if configured)
+- Ant / NetBeans Project Structure
 
-## ▶ How to Run
-1. Open the project in NetBeans
-2. Configure the database connection (if needed)
-3. Run the project
+---
+
+## 🗄 Database
+
+This project uses **MySQL** (if configured).
+
+Configure your database credentials inside:
+
