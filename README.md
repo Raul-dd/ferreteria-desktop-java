@@ -141,9 +141,19 @@ The system displays confirmation and feedback dialogs for actions such as:
 
 ---
 
-## 🗄 Database
+## 🗄️ Database (MySQL)
 
-This project uses **MySQL** (if configured).
+The database is included as a SQL script.
 
-Configure your database credentials inside:
+✅ **One step setup (MySQL Workbench):**
+1. Open **MySQL Workbench**
+2. Go to **File → Open SQL Script**
+3. Select: `database/schema.sql`
+4. Click the **⚡ Execute** button
+
+That’s it. The script will:
+- **Create the database (schema)**
+- **Create all tables**
+- Leave everything ready to run the application
+
 
